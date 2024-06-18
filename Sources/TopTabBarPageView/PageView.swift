@@ -42,7 +42,8 @@ public struct PageView<Content: Pageable>: View {
                         .overlay {
                             GeometryReader { geometry in
                                 Text("")
-                                    .onAppear {
+                                    .task(id: geometry.size.width) {
+                                        guard geometry.size.width > 0 else { return }
                                         textsWidth[index] = geometry.size.width
                                     }
                             }
