@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://github.com/wenxindiaolong-github/TopTabBarPageView/blob/main/%E6%BC%94%E7%A4%BA.png" />
+</p>
+
 # Requirements
 * SwiftUI
 * IOS 16
